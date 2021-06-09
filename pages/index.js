@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Categories from "../components/Categories";
 import Header from "../components/Header";
 
 export default function Home() {
@@ -13,10 +13,9 @@ export default function Home() {
         />
       </Head>
 
-      {/* Header Content */}
       <Header />
 
-      {/* Navigation Content */}
+      <Categories />
 
       {/* Result Content */}
     </div>

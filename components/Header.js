@@ -19,7 +19,7 @@ const Header = () => {
         width={150}
       />
 
-      <nav className="flex flex-grow justify-evenly w-full sm:max-w-xl">
+      <nav className="flex flex-grow justify-evenly w-full sm:max-w-lg">
         <NavItem desc="HOME" Icon={HomeIcon} />
         <NavItem desc="TRENDING" Icon={LightningBoltIcon} />
         <NavItem desc="VERIFIED" Icon={BadgeCheckIcon} />
