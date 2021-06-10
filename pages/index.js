@@ -4,8 +4,7 @@ import Feed from "../components/Feed";
 import Header from "../components/Header";
 import requests from "../utils/requests";
 
-export default function Home(props) {
-  console.log(props);
+export default function Home({ results }) {
   return (
     <div>
       <Head>
@@ -20,7 +19,7 @@ export default function Home(props) {
 
       <Categories />
 
-      <Feed />
+      <Feed results={results} />
     </div>
   );
 }
