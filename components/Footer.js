@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 const Footer = () => {
   const router = useRouter();
   return (
-    <footer className="mt-1 bg-[#04151b] py-2">
+    <footer className="mt-1 bg-[#04151b] py-4">
       <div className="flex flex-col items-center justify-center">
         <Image
           className="object-contain mb-0"
