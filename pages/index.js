@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Categories from "../components/Categories";
 import Feed from "../components/Feed";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import requests from "../utils/requests";
 
@@ -20,6 +21,8 @@ export default function Home({ results }) {
       <Categories />
 
       <Feed results={results} />
+
+      <Footer />
     </div>
   );
 }

@@ -20,7 +20,7 @@ const Categories = () => {
         })}
       </div>
       <div className="absolute top-0 right-0 bg-gradient-to-l from-[#06202a] h-10 w-1/12" />
-      <h6 className="italic text-center opacity-0 group-hover:opacity-40 m-2 px-10">
+      <h6 className="italic text-center opacity-0 group-hover:opacity-40 group-active:opacity-40 m-2 px-10">
         scrollable navigation: use mouse wheel to scroll or press and hold shift
         together with mouse wheel to scroll
       </h6>
